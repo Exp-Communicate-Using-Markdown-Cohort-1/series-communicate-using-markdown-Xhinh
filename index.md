@@ -21,4 +21,16 @@
 
 ![A simple logo](https://getit101.com/wp-content/uploads/brizy/imgs/getit101-logo-headjune23-176x47x0x0x176x47x1686752967.png)
 
+## My Favorite Code
 
+```
+def fibonacci(n):
+    fib_series = [0, 1]
+    while len(fib_series) < n:
+        next_num = fib_series[-1] + fib_series[-2]
+        fib_series.append(next_num)
+    return fib_series
+
+num_terms = 10
+print(f"Fibonacci series with {num_terms} terms: {fibonacci(num_terms)}")
+```
