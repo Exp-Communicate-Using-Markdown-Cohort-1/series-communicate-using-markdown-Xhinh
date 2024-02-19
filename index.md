@@ -34,3 +34,8 @@ def fibonacci(n):
 num_terms = 10
 print(f"Fibonacci series with {num_terms} terms: {fibonacci(num_terms)}")
 ```
+## My TaskLists
+- [ ] Learn about GitHub
+- [ ] Enroll at Datacamp
+- [ ] Learn some WebDev
+- [ ] Master AI Prompt Engineering
